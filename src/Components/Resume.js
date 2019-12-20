@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Education from "../Components/Education";
-import Experience from '../Components/Experience'
+import Experience from "../Components/Experience";
+import Skills from "../Components/Skills";
 
 export class Resume extends Component {
   render() {
@@ -39,26 +40,52 @@ export class Resume extends Component {
             <h2>Education</h2>
 
             <Education
-              startYear={2010}
-              endYear={2015}
-              schoolName={"University of Ilorin"}
-              schoolDescription={"Mechanical Engineering"}
-            />
-
-            <Education
               startYear={2019}
               endYear={2020}
               schoolName="Lambda School"
               schoolDescription="Full Stack Web Development"
             />
-            <hr style={{borderTop: "3px solid #e22947"}}/>
+
+            <Education
+              startYear={2010}
+              endYear={2015}
+              schoolName={"University of Ilorin"}
+              schoolDescription={"Bachelor of Engineering, Mechanical Engineering"}
+            />
+            <hr style={{ borderTop: "3px solid #e22947" }} />
 
             <h2>Experience</h2>
 
-            <Experience startYear={2017}
-            endYear={2012}
-            jobName="Access Bank Plc."
-            jobDescription="Customer Relationship Officer"/>
+            <Experience
+              startYear={2017}
+              endYear={2019}
+              jobName="Access Bank Plc."
+              jobDescription="Customer Relationship Officer"
+            />
+
+            <Experience
+              startYear={2016}
+              endYear={2017}
+              jobName="Perfect Structures"
+              jobDescription="Graduate Trainee"
+            />
+
+            <Experience
+              startYear={2013}
+              endYear={2014}
+              jobName="Affordable Cars Nig. Ltd."
+              jobDescription="Intern"
+            />
+            <hr style={{ borderTop: "3px solid #e22947" }} />
+
+            <h2>Skills</h2>
+            <Skills skill="JavaScript" progress={70} />
+
+            <Skills skill="HTML" progress={95} />
+
+            <Skills skill="CSS" progress={70} />
+
+            <Skills skill="React" progress={70} />
           </Cell>
         </Grid>
       </div>
