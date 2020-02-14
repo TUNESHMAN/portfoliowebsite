@@ -18,16 +18,16 @@ export class Resume extends Component {
                   </div>
                   <div className="social-links">
                       {/* LINKEDIN */}
-                      <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                      <a href="https://www.linkedin.com/in/babatunde-adeniran-0a2652b8/" target="_blank" rel="noopener noreferrer">
                           <i className="fa fa-linkedin-square" aria-hidden="true" />
                       </a>
                       {/* GITHUB */}
 
-                      <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                      <a href="https://github.com/TUNESHMAN" target="_blank" rel="noopener noreferrer">
                           <i className="fa fa-github-square" aria-hidden="true" />
                       </a>
                     {/* TWITTER */}
-                      <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                      <a href="https://twitter.com/Tuneshman" target="_blank" rel="noopener noreferrer">
                           <i className="fa fa-twitter-square" aria-hidden="true" />
                       </a>
 
