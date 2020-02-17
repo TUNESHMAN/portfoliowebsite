@@ -28,7 +28,7 @@ export class Resume extends Component {
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
-            <p>2, Bridge Close, New Ashongman Estate, Accra, Ghana.</p>
+            <p>1, Bisiriyu Enifeni Street, Solomade, Ikorodu, Lagos.</p>
             <h5>Phone</h5>
             <p>(+234) 80 666 95472</p>
             <h5>Email</h5>
