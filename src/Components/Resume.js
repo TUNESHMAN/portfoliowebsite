@@ -63,7 +63,7 @@ export class Resume extends Component {
               startYear={2017}
               endYear={2019}
               jobName="Access Bank Plc."
-              jobDescription="Team member, customer relationship"
+              jobDescription="Member, Customer Relationship and Management team"
             />
 
             <Experience
