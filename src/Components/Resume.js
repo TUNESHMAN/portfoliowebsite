@@ -21,10 +21,11 @@ export class Resume extends Component {
             <h4 style={{ color: "grey" }}>Programmer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              Full Stack Web Developer with an academic background in Mechanical
-              Engineering and almost six months experience in building React
-              front end applications. I am prepared to transition into any entry
-              level position, on-site or remote.
+              Full Stack Web Developer with a background in Mechanical
+              Engineering and almost a year experience in building React Front
+              End applications and more than 6 months experience building Rest
+              API and Full Stack applications, I’m prepared to transition into
+              any entry level position, on-site or remote.
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
@@ -50,7 +51,9 @@ export class Resume extends Component {
               startYear={2010}
               endYear={2015}
               schoolName={"University of Ilorin"}
-              schoolDescription={"Bachelor of Engineering, Mechanical Engineering"}
+              schoolDescription={
+                "Bachelor of Engineering, Mechanical Engineering"
+              }
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
 
@@ -60,7 +63,7 @@ export class Resume extends Component {
               startYear={2017}
               endYear={2019}
               jobName="Access Bank Plc."
-              jobDescription="Customer Relationship Officer"
+              jobDescription="Team member, customer relationship"
             />
 
             <Experience
@@ -79,13 +82,21 @@ export class Resume extends Component {
             <hr style={{ borderTop: "3px solid #e22947" }} />
 
             <h2>Skills</h2>
-            <Skills skill="JavaScript" progress={70} />
+            <Skills skill="JavaScript" progress={95} />
 
-            <Skills skill="HTML" progress={95} />
+            <Skills skill="HTML" progress={100} />
 
-            <Skills skill="CSS" progress={70} />
+            <Skills skill="CSS" progress={85} />
 
-            <Skills skill="React" progress={70} />
+            <Skills skill="React" progress={100} />
+
+            <Skills skill="Redux" progress={95} />
+
+            <Skills skill="Node" progress={95} />
+
+            <Skills skill="Express" progress={95} />
+
+            <Skills skill="SQLite" progress={95} />
           </Cell>
         </Grid>
       </div>

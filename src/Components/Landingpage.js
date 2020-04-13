@@ -13,7 +13,7 @@ export class Resume extends Component {
                   <div className="banner-text">
                       <h1>Full Stack Web Developer</h1>
                       <hr/>
-                      <p>HTML | CSS | React | REDUX | Bootstrap | JavaScript</p>
+                      <p>HTML | CSS | React | REDUX | Bootstrap | JavaScript | Node | Express | SQLite</p>
                       {/* LINKS TO MY SOCIAL PROFILE */}
                   </div>
                   <div className="social-links">

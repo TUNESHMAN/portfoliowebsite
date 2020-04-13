@@ -11,7 +11,7 @@ function App() {
         <Header className="header-color" title={<Link style={{textDecoration:'none', color:'white'}} to='/'>Babatunde's Diary</Link>} scroll>
           <Navigation>
             <Link to="/aboutme">About Me</Link>
-            {/* <Link to="/projects">Projects</Link> */}
+            <Link to="/projects">Projects</Link>
             <Link to="/contact">Contact</Link>
             <Link to="/resume">Resume</Link>
           </Navigation>
