@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import { Grid, Cell } from "react-mdl";
 
 export class Resume extends Component {
   render() {
@@ -8,12 +8,6 @@ export class Resume extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h1>About</h1>
-            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              A creative, innovative, approachable, realistic and result-driven
-              graduate offering broad knowledge and experiences gathered in over
-              three different fields as an intern, manager, writer, media
-              practitioner and teacher.
-            </p>
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               I am intrigued by how the internet works and how humans interact
               with computing devices to provide solutions to everyday problems.

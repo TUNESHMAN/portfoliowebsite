@@ -107,3 +107,9 @@ margin: auto;
   color: white;
   padding: 2em;
 }
+
+/* Projects page CSS */
+.projects-grid{
+  display: flex;
+  
+}

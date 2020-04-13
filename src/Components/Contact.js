@@ -14,10 +14,10 @@ export class Resume extends Component {
               style={{ height: "250px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Full Stack Web Developer with an academic background in Mechanical Engineering and almost six months
-              experience in building React front end applications. 
-               I am prepared to transition into any entry level
-              position, on-site or remote.
+              Full Stack Web Developer with an academic background in Mechanical
+              Engineering and almost twelve months experience in building React
+              Front End applications. I am prepared to transition into any entry
+              level position, on-site or remote.
             </p>
           </Cell>
 
