@@ -10,7 +10,6 @@ import {
   CardActions,
   Button,
   CardMenu,
-  IconButton,
   CardText,
 } from "react-mdl";
 import decksify from "../Components/Image/Decksify.png";
@@ -51,7 +50,7 @@ export class Resume extends Component {
               <Button
                 colored
                 style={{ textDecoration: "none", marginLeft: '85px'}}
-                href="https://https://www.app.decksify.com/"
+                href="https://app.decksify.com/"
                 target="_blank"
               >
                 Decksify
@@ -76,14 +75,12 @@ export class Resume extends Component {
           {/* <Tab>Angular</Tab>
           <Tab>Vue</Tab> */}
         </Tabs>
-        {/* <section className="projects-grid"> */}
 
         <Grid className="projects-grid">
           <Cell col={12}>
             <div className="content">{this.toggleCategories()}</div>
           </Cell>
         </Grid>
-        {/* </section> */}
       </div>
     );
   }

@@ -44,7 +44,7 @@ export class Resume extends Component {
               startYear={2019}
               endYear={2020}
               schoolName="Lambda School"
-              schoolDescription="Full Stack Web Development"
+              schoolDescription="Full Stack Web Development and Computer Science"
             />
 
             <Education
